@@ -117,7 +117,7 @@ function Class() {
                   Java Script Day 1
                 </span>
                 <br />
-                9/09/2022-Thursday-10:00am-12:00pm
+                8/02/2022-Thursday-10:00am-01:00pm
                 <hr />
                 <div className="preread-head">contents:</div>
                 <div className="ml-3">
