@@ -122,10 +122,11 @@ function Class() {
                 <div className="preread-head">contents:</div>
                 <div className="ml-3">
                   <span className="preread">
-                    Introduction to Web Browser Wars DOM tree CSSOM tree Browser
-                    internals - HTML parser CSS parser JS engine Layout engine
-                    or rendering engine JavaScript V8 engine internals IP – MAC
-                    address Ports & Evolution of HTTP
+                    Introduction to web Browser Wars DOM tree CSSOM tree,
+                    Browser internals - HTML parser, CSS parser, JavaScript V8
+                    engine, internals IP – MAC address – Ports & Evolution of
+                    HTTP, HTTP Methods How the Server looks at the URL Request &
+                    Response cycle
                   </span>
                 </div>
                 <div className="preread-head">Pre-read:</div>
@@ -141,7 +142,7 @@ function Class() {
             <div className="roadmap-container justify-self-center">
               <div className="roadmap-area">
                 <div className="progress-head">
-                  <span className="progress-header">Sessions Roadmap</span>
+                  <span className="progress-header">Sessions RoadMap</span>
                 </div>
                 <div className="sessionsContainer">
                   {sessionRoadMap.map((val, idx) => {
@@ -234,9 +235,9 @@ function Class() {
                       </div>
                       <div className="addSessionContainer">
                         <div className="addSession">
-                          <h5 style={{ fontWeight: "450" }}>AWS day 4</h5>
+                          <h5 style={{ fontWeight: "450" }}>AWS day 1</h5>
                           <p style={{ fontWeight: "250", margin: "0px" }}>
-                            28/10/2022 - Friday - 2:00pm
+                            08/12/2022 - Friday - 2:00pm
                           </p>
                         </div>
                       </div>
