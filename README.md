@@ -1,3 +1,4 @@
 # login credentials
-# `mail`:demo@gmail.com
-# `password`:hello123
+# `mail`:onetwo@gmail.com
+# `password`:User@123456
+
