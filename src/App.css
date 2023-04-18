@@ -1,5 +1,4 @@
-.secOne{
-  
+.secOne {
   background: #fff;
   border-right: 1px solid #e5e5e5;
   position: fixed;
@@ -11,12 +10,11 @@
   overflow: hidden;
   -webkit-transform: translateZ(0) scale(1);
   transform: translateZ(0) scale(1);
-  -webkit-transition: width .3s ease;
-  transition: width .3s ease;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
   z-index: 1000;
-
 }
-.icon{
+.icon {
   border: 2px solid black;
   font-size: 10px;
   width: 40px;
@@ -24,68 +22,64 @@
   padding-left: 5px;
   font-weight: 700;
 }
-.secTwo{
-  border-bottom: 1px solid #e5e5e5 ;
+.secTwo {
+  border-bottom: 1px solid #e5e5e5;
   height: 75px;
 
-padding-left: 20px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.secOne:hover{
-width: 200px;
-
+.secOne:hover {
+  width: 200px;
 }
-.banner{
-  height:60px;
- padding-left: 10px;
- margin-left: -12px;
+.banner {
+  height: 60px;
+  padding-left: 10px;
+  margin-left: -12px;
   border-radius: 10px;
   background-color: #4b0dba;
-  color:aliceblue;
+  color: aliceblue;
   font-size: 17px;
   font-weight: 600;
   padding-top: 15px;
 }
-.sidebar-list{
+.sidebar-list {
   list-style: none;
   margin-top: 30px;
   margin-left: 0px !important;
 }
-.sidebar-list li{
-  
+.sidebar-list li {
   font-size: 12px;
   font-weight: 500;
   width: 200px;
-margin-top: 30px;
-
+  margin-top: 30px;
 }
-.iconx{
+.iconx {
   padding-right: 30px;
   font-size: 16px;
 }
-.nav-list{
+.nav-list {
   margin-left: -15px;
 }
-.sidebar-list li a{
+.sidebar-list li a {
   text-decoration: none;
   color: #7a7a7a;
 }
-.sidebar-list li a:hover{
+.sidebar-list li a:hover {
   color: #4b0dba;
 }
-.sidebar-list li a:active{
+.sidebar-list li a:active {
   color: #4b0dba;
 }
 .sideContainer {
   display: flex;
   flex-direction: column;
 }
-.sessionsContainer{
- 
+.sessionsContainer {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 10px;
   -webkit-column-gap: 10px;
   column-gap: 34px;
@@ -99,19 +93,19 @@ margin-top: 30px;
   border-radius: 50%;
   width: 35px;
   height: 35px;
- 
+
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-.roadmap-area{
+.roadmap-area {
   width: 340px;
   /* left: 800px;
   top: 96px; */
-
 }
 
-.roadmap-area, .session-container {
+.roadmap-area,
+.session-container {
   background: #fff;
   border: 1px solid #dedede;
   box-sizing: border-box;
@@ -130,10 +124,11 @@ margin-top: 30px;
   place-items: center;
   height: inherit;
   -webkit-user-select: none;
- -o-user-select: none;
+  -o-user-select: none;
   user-select: none;
 }
-.step-path-left, .step-path-right {
+.step-path-left,
+.step-path-right {
   width: 28px;
   border: 2px solid #93a4b7;
   border-radius: 10px;
@@ -153,7 +148,7 @@ margin-top: 30px;
 .step-path-left {
   right: 34px;
 }
-.step-path-right{
+.step-path-right {
   left: 37px;
 }
 .progress-head {
@@ -188,52 +183,52 @@ margin-top: 30px;
   padding: 8px 12px;
   cursor: pointer;
 }
-.roadmap-update{
+.roadmap-update {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   border-radius: 15px;
   background-color: aliceblue;
-  
 }
-.feedback{
+.feedback {
   color: red;
 }
-.table{
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+.table {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border-radius: 5px;
 }
-.contents-update{
+.contents-update {
   margin-left: -12px;
   padding-left: 10px;
   margin-top: 15px;
-  
 }
-.preread,.preread-head{
+.preread,
+.preread-head {
   left: 116px;
   font-style: normal;
   font-size: 13px;
   line-height: 24px;
 }
-.preread{
+.preread {
   white-space: pre-wrap;
 }
-.preread-head{
+.preread-head {
   font-weight: 600;
 }
-.dyna{
+.dyna {
   padding-left: 85px;
 }
-.login-input{
+.login-input {
   margin-top: 200px;
   border: 1px solid #4b0dba;
   height: 300px;
   padding-top: 30px;
   border-radius: 15px;
 }
-.btn-color{
+.btn-color {
   background-color: #4b0dba;
   color: #e5e5e5;
 }
-.icon2{
+.icon2 {
   border: 4px solid black;
   height: 120px;
   width: 120px;
@@ -245,9 +240,14 @@ margin-top: 30px;
   font-size: 25px;
   padding: 20px;
 }
-.btn-color:hover{
-  background-color:#826BDF;
+.btn-color:hover {
+  background-color: #826bdf;
 }
-.map2{
+.map2 {
   margin-left: 50px;
+}
+.testing {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }

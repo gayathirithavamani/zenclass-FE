@@ -79,7 +79,17 @@ function Login() {
             <button type="submit" className="btn btn-color">
               Submit
             </button>
+            {/* <div className="testing">
+              <h6> Test Credentials </h6>
+              <span className="test-left">email :demo@gmail.com</span>
+              <span className="test-left">password : 123456789</span>
+            </div> */}
           </form>
+          <div className="testing">
+            <h6> Test Credentials </h6>
+            <span className="test-left">email : onetwo@gmail.com</span>
+            <span className="test-left">password : User@123456</span>
+          </div>
         </div>
         <div
           className="col-md-4"
